@@ -10,7 +10,7 @@
  
     <?php
  
-       echo  '<input type="button" value="클릭하세요">';
+       echo "<option value='$RD[category]' $selected>".$RD[category]."</option>";
  
     ?>
  
